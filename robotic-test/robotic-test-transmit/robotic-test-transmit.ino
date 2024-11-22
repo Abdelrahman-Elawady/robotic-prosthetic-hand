@@ -1,5 +1,5 @@
 #include <SoftwareSerial.h>
-SoftwareSerial BTSerial(0, 1); // Use different pins for SoftwareSerial
+SoftwareSerial BTSerial(0, 1); // RX AND TX
 
 const int flexSensorPin = A0; // Flex sensor connected to analog pin A0
 

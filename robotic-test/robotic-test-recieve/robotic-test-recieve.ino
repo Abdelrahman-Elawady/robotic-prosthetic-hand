@@ -1,7 +1,7 @@
 #include <SoftwareSerial.h>
 #include <Servo.h>
 
-SoftwareSerial BTSerial(0, 1); // Use different pins for SoftwareSerial
+SoftwareSerial BTSerial(0, 1); // RX AND TX
 Servo servo;
 
 const int servoPin = 9; // Servo connected to digital pin 9

@@ -1,6 +1,6 @@
 #include <SoftwareSerial.h>
 
-SoftwareSerial BTSerial(10, 11); // RX, TX
+SoftwareSerial BTSerial(0, 1); // RX, TX
 
 const int flexSensorPins[] = {A0, A1, A2, A3, A4}; // Flex sensors connected to analog pins
 

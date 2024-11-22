@@ -1,7 +1,7 @@
 #include <Servo.h>
 #include <SoftwareSerial.h>
 
-SoftwareSerial BTSerial(10, 11); // RX, TX
+SoftwareSerial BTSerial(0, 1); // RX, TX
 
 Servo servos[5];
 const int servoPins[] = {3, 5, 6, 9, 10}; // Servos connected to digital pins
